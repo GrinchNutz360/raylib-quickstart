@@ -81,7 +81,7 @@ int main ()
 	SearchAndSetResourceDir("resources");
 
 	// set the target fps, set to lower value to make generation slower(30, 20 or 10)
-	SetTargetFPS(10);
+	SetTargetFPS(30);
 
 	Cells currentGeneration(gridWidth * gridHeight);
 	Cells nextGeneration(gridWidth * gridHeight);
